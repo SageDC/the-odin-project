@@ -1,37 +1,8 @@
-/* Basic Syntax
-   div.bold-text = Selector
-   font-weight = property
-   700 = value */
-div.bold-text {
-    font-weight: 700;
-}
-
-/* Universal Selector */
-* {
-    color: purple;
-}
-
-/* Type Selector */
 div {
-    color: white;
-}
-
-/* Class Selector */
-.alert-text {
-    color: red;
-}
-
-/* ID Selector */
-#title {
-    background-color: red;
-}
-
-/* Grouping Selector */
-.read, .unread {
     color: white;
     background-color: black;
 }
 
-.subsection.header {
+p {
     color: red;
 }
